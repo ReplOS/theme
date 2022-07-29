@@ -61,11 +61,11 @@ $_switch_margin: if($_sizevariant=='default', 10px, 7px);
  ***************/
 .background {
   color: $fg_color;
-  background-color: $bg_color;
+  background-color: $real_bg_color;
 
   &:backdrop {
     color: $backdrop_fg_color;
-    background-color: $backdrop_bg_color;
+    background-color: $backdrop_real_bg_color;
     text-shadow: none;
     -gtk-icon-shadow: none;
   }
